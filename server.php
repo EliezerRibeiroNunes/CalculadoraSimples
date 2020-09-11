@@ -1,7 +1,7 @@
 <?php
 
-$number1=$_GET['number1'];
-$number2=$_GET['number2'];
+$number1=$_POST['number1'];
+$number2=$_POST['number2'];
 
 $soma = $number1 + $number2;
 $subtrai = $number1 - $number2;
